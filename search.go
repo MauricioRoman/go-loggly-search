@@ -47,7 +47,7 @@ func newQuery(c *Client, str string) *query {
 }
 
 // Create a new loggly search client with credentials.
-func New(account string, user string, pass string) *Client {
+func NewLS(account string, user string, pass string) *Client {
 	c := &Client{
 		Account:  account,
 		User:     user,
