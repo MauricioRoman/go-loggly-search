@@ -158,9 +158,9 @@ func (q *query) Until(str string) *query {
 	return q
 }
 
-// Set from time.
-func (q *query) From(str string) *query {
-	q.from = str
+// Set until time.
+func (q *query) To(str string) *query {
+	q.until = str
 	return q
 }
 
